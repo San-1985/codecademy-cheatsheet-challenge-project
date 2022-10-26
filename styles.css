@@ -1,12 +1,15 @@
 body {
     text-align: center;
     background-color: gainsboro;
+    font-family: sans-serif;
 }
 
 table {
     margin: auto;
     text-align: left;
     border: darkorchid solid 2px;
+    width: 650px;
+    border-collapse: separate;
 }
 
 h2 {
@@ -15,6 +18,11 @@ h2 {
 
 th {
     background-color: plum;
+    text-align: center;
+}
+
+td {
+    border-top: darkorchid solid 1px;
 }
 
 code, .css-attributes {

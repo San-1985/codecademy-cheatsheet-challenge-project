@@ -1,8 +1,23 @@
 body {
     text-align: center;
+    background-color: gainsboro;
 }
 
 table {
     margin: auto;
     text-align: left;
+    border: darkorchid solid 2px;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+th {
+    background-color: plum;
+}
+
+code, .css-attributes {
+    font-family: monospace;
+    background-color: whitesmoke;
 }
